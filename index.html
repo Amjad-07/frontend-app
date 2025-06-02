@@ -8,7 +8,7 @@
   <p id="api-data">Loading</p>
 
   <script>
-    fetch('http://internal-capestone-internal-559327774.ap-south-1.elb.amazonaws.com/api/data')
+    fetch('http://internal-capestone-internal-559327774.ap-south-1.elb.amazonaws.com:5000/api/data')
       .then(res => res.json())
       .then(data => {
         document.getElementById("api-data").innerText = data.message;
