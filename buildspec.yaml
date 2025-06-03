@@ -8,7 +8,7 @@ env:
     CLUSTER_NAME: capestone-cluster
     SERVICE_NAME: capstone-task-definition-service-j95qywgd 
     TASK_DEFINITION_FAMILY: capstone-task-definition
-    CONTAINER_NAME:  frontend-repo
+    CONTAINER_NAME:  frontend-app
     SUBNET_ID: subnet-06dc0fd87bfe5a8b6
     SECURITY_GROUP_ID: sg-029beaf9489126e73
     EXECUTION_ROLE_ARN: arn:aws:iam::209561933103:role/ecsTaskExecutionRole
